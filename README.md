@@ -9,7 +9,15 @@
 - A single consumer task retrieves data from the ring buffer and transmits it via UART2.
 
 ## Project Structure
-Core/ ├── Inc/ │ ├── main.h │ └── ringbuffer.h ├── Src/ │ ├── main.c │ └── ringbuffer.c Middlewares/ └── FreeRTOS/
+Core/
+├── Inc/
+│   ├── main.h
+│   └── ringbuffer.h
+├── Src/
+│   ├── main.c
+│   └── ringbuffer.c
+Middlewares/
+└── FreeRTOS/
 
 
 ## Testing
